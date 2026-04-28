@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>icang | Artist Profile</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: #0d0d0d;
+    color: white;
+}
+
+/* Header */
+.header {
+    padding: 60px 20px;
+    text-align: center;
+    background: linear-gradient(to bottom, #1a1a1a, #0d0d0d);
+}
+
+.artist-name {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.artist-sub {
+    color: #aaa;
+    margin-top: 10px;
+}
+
+/* Section */
+.section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Card */
+.card {
+    background: #1a1a1a;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+/* Album grid */
+.albums {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 20px;
+}
+
+.album {
+    text-align: center;
+}
+
+.cover {
+    width: 100%;
+    height: 140px;
+    background: #333;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 30px;
+    color: #777;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+    <div class="artist-name">icang</div>
+    <div class="artist-sub">
+        Amis Artist • Changbin, Taitung • NDHU
+    </div>
+</div>
+
+<div class="section">
+    <div class="card">
+        <h2>About</h2>
+        <p>
+            我是 icang，來自台東縣長濱鄉真柄部落的阿美族，目前就讀國立東華大學三年級。  
+            音樂對我來說，是文化、土地與情感的延伸。
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Top Tracks</h2>
+        <p>• 海風的名字</p>
+        <p>• 真柄的夜</p>
+        <p>• 回到部落</p>
+    </div>
+
+    <div class="card">
+        <h2>Albums</h2>
+        <div class="albums">
+            <div class="album">
+                <div class="cover"></div>
+                <div>Ocean Roots</div>
+            </div>
+            <div class="album">
+                <div class="cover"></div>
+                <div>Tribal Echo</div>
+            </div>
+            <div class="album">
+                <div class="cover"></div>
+                <div>East Coast Soul</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>Contact</h2>
+        <p>Email: 41129a006@gms.ndhu.edu.tw</p>
+    </div>
+</div>
+
+<div class="footer">
+    © 2026 icang
+</div>
+
+</body>
+</html>
